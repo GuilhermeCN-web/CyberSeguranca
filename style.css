@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+}
+
+.container{
+    display: flex;
+}
+
+.white{
+    background-color: white;
+    color: black;
+    padding-bottom: 50%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.black{
+    flex: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 120px;
+    font-size: 21px;
+    border-radius: 20%;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 120px;
+    font-size: 21px;
+    border-radius: 20%;
+}
