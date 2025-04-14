@@ -40,6 +40,31 @@ footer{
     height: 100px;
 }
 
+table{
+    text-align: left;
+    margin: auto;
+    font-size: 24px;
+    border: solid red 4px;
+    box-shadow: 0 4px 55px rgb(255, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+th{
+    background-color: grey;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+tr{
+    background-color: white;
+}
+
+td{
+    padding: 10px;
+    border: solid black 2px;
+}
+
 .container{
     background-color: rgb(255, 255, 255, 0.6);
     color: black;
