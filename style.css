@@ -65,6 +65,11 @@ td{
     border: solid black 2px;
 }
 
+.img-table{
+    height: 100px;
+    width: 100px;
+}
+
 .container{
     background-color: rgb(255, 255, 255, 0.6);
     color: black;
