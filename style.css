@@ -85,25 +85,6 @@ td{
     z-index: 1;
 }
 
-.b{
-    background-color: black;
-    color: white;
-    height: 120px;
-    width: 240px;
-    font-size: 42px;
-    border-radius: 20%;
-    margin-bottom: 200px;
-}
-
-.b:hover{
-    color: red;
-}
-
-.b:active{
-    background-color: red;
-    color: black;
-}
-
 @media (max-width: 768px)
 {
     table{
