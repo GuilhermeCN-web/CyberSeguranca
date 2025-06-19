@@ -70,17 +70,17 @@ td{
     width: 100px;
 }
 
-.container{
-    background-color: rgb(255, 255, 255, 0.6);
+.container {
+    background-color: rgba(255, 255, 255, 0.2); /* vidro mais sutil */
     color: black;
     text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
     height: 100%;
     margin-top: 100px;
     margin-bottom: 200px;
     border-radius: 20px;
-    box-shadow: 0 4px 55px rgb(255, 0, 0);
+    box-shadow: 0 4px 55px rgb(255, 0, 0); /* sombra vermelha mais suave */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     position: relative;
     z-index: 1;
 }
